@@ -9,7 +9,7 @@ This project will teach you how to use Scratch GPIO and the Python Pibrella libr
 
 You will require the following components alongside your Raspberry Pi:
 
-- A PiGlow
+- A Pibrella
 - An internet connection either by Wifi or Ethernet to get the files you need only.
 
 ##Step 0: Set up your Raspberry Pi
