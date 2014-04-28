@@ -3,7 +3,7 @@
 ###Introduction
 Do you have an add on board for your Raspberry Pi called a [Pibrella?](http://pibrella.com/) Then what are you waiting for, let's get programming it!
 
-![](pibrella.jpg)
+![](pibrella.JPG)
 
 This project will teach you how to use Scratch GPIO and the Python Pibrella library in order to make use of your Pibrella.
 
