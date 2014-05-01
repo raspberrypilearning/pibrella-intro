@@ -52,3 +52,38 @@ Now you know that your Pibrella is operating correctly, with the led lights turn
 ###Activity Checklist:
 1. Create a new python file by typing `nano pibrella.py` in an LXTerminal window or on the command line. This will open a text editor wndow, just like before.
 2. 
+
+
+##Step 4: Create a Disco Light Program
+As well as using the Pibrella library in a program, you can also use the functionality of others like random and time. 
+
+###Activity Checklist:
+1. Create a new python file by typing `nano disco.py` in an LXTerminal window or on the command line. A new and empty text editor file will open. 
+2. On the first line, import the libraries which you will need to use:
+
+  ```python
+  import pibrella, random, time
+  ```
+3. Then label each of the lights like this:
+  
+  ```python
+  red = pibrella.light.red
+  amber = pibrella.light.amber
+  green = pibrella.light.green
+  ```
+
+4. Underneath, add the colour names to a list:
+  
+  ```python
+  colour = [red, amber, green]
+  ```
+5. Now you have set up the program, create a loop using `while True:` That selects a random colour light from the list of colours and then turn on and off that light for 0.2 of a second:
+
+  ```python
+  while True:
+      result = random.choice(colour)
+      time.sleep(1)
+      resultpulse(0.2)
+  ```
+6. Now save and exit by pressing **CTRL** and **X** on the keyboard and then **Y** for yes. 
+7. To run your program type `sudo python disco.py` 
