@@ -54,7 +54,7 @@ Now you know that your Pibrella is operating correctly, with the led lights turn
 2. 
 
 
-##Step 4: Create a Disco Light Program
+##Step 4: Create a Random Light Program
 As well as using the Pibrella library in a program, you can also use the functionality of others like random and time. 
 
 ###Activity Checklist:
