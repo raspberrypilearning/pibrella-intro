@@ -51,7 +51,12 @@ Now you know that your Pibrella is operating correctly, with the led lights turn
 
 ###Activity Checklist:
 1. Create a new python file by typing `nano pibrella.py` in an LXTerminal window or on the command line. This will open a text editor wndow, just like before.
-2. 
+2. On the first line, import the pibrella library like before, and the time library:
+
+  ```python
+  import pibrella, time
+  ```
+3.   
 
 
 ##Step 4: Create a Random Light Program
@@ -83,7 +88,7 @@ As well as using the Pibrella library in a program, you can also use the functio
   while True:
       result = random.choice(colour)
       time.sleep(1)
-      resultpulse(0.2)
+      result.pulse(0.2)
   ```
 6. Now save and exit by pressing **CTRL** and **X** on the keyboard and then **Y** for yes. 
 7. To run your program type `sudo python disco.py` 
