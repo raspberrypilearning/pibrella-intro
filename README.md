@@ -45,22 +45,9 @@ With the Pirella python library downloaded you can easily test to make sure that
 7. Run your test code by typing `sudo python test.py`. You should see the lights on the Pibrella board turn on and hear a tune coming from the buzzer. 
 8. To stop the program press **CTRL** and **C**.
 
-##Step 3: Create a Pibrella Program
 
-Now you know that your Pibrella is operating correctly, with the led lights turning on and off, and the buzzer sounding a tune, you can start to write a python program to control it.
-
-###Activity Checklist:
-1. Create a new python file by typing `nano pibrella.py` in an LXTerminal window or on the command line. This will open a text editor wndow, just like before.
-2. On the first line, import the pibrella library like before, and the time library:
-
-  ```python
-  import pibrella, time
-  ```
-3.   
-
-
-##Step 4: Create a Random Light Program
-As well as using the Pibrella library in a program, you can also use the functionality of others like random and time. 
+##Step 3: Create a Random Light Program
+As well as using the Pibrella library in a simple program, you can also use the functionality of other libraries like random and time. 
 
 ###Activity Checklist:
 1. Create a new python file by typing `nano disco.py` in an LXTerminal window or on the command line. A new and empty text editor file will open. 
@@ -92,3 +79,9 @@ As well as using the Pibrella library in a program, you can also use the functio
   ```
 6. Now save and exit by pressing **CTRL** and **X** on the keyboard and then **Y** for yes. 
 7. To run your program type `sudo python disco.py` 
+
+##Step 4: Use disco.py to tell you when you've been mentioned in a tweet!
+Now that you have a disco pibrella program you can use it to alert you to something happening. This could be to alert you to someones presence or as a notification. Let's use it to notify you when you recieve a mention in a tweet!
+
+###Activity Checklist:
+1. 
