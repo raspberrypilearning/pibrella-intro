@@ -80,8 +80,8 @@ As well as using the Pibrella library in a simple program, you can also use the 
 6. Now save and exit by pressing **CTRL** and **X** on the keyboard and then **Y** for yes. 
 7. To run your program type `sudo python disco.py` 
 
-##Step 4: Use disco.py to tell you when you've been mentioned in a tweet!
-Now that you have a disco pibrella program you can use it to alert you to something happening. This could be to alert you to someones presence or as a notification. Let's use it to notify you when you recieve a mention in a tweet!
+##Step 4: Use disco.py to alert you
+Now that you have a disco pibrella program you can use it to alert you to something happening. This could be to alert you to someones presence or as a notification.
 
 ###Activity Checklist:
 1. 
