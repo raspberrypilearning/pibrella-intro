@@ -1,20 +1,5 @@
 # Getting started with Pibrella 
 
-###Introduction
-Do you have an add on board for your Raspberry Pi called a [Pibrella?](http://pibrella.com/) Then what are you waiting for, let's get programming it!
-
-![](pibrella.JPG)
-
-This project will teach you how to use Scratch GPIO and the Python Pibrella library in order to make use of your Pibrella.
-
-You will require the following components alongside your Raspberry Pi:
-
-- A Pibrella
-- An internet connection either by Wifi or Ethernet to get the files you need only.
-
-##Step 0: Set up your Raspberry Pi
-You will need to set up your Raspberry Pi to take part in this activity. See the [Raspberry Pi Quick Start Guide here](http://www.raspberrypi.org/help/quick-start-guide/) to get you up and running.
-
 ##Step 1: Set up your Raspberry Pi to use Pibrella
 
 The Pibrella fits onto the GPIO pins on your Raspberry Pi. Make sure that your Pi is turned off before pushing it onto the GPIO pins like this:
