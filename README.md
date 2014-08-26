@@ -7,11 +7,6 @@ Do you have an add on board for your Raspberry Pi called a [Pibrella?](http://pi
 
 This project will teach you how to use Scratch GPIO and the Python Pibrella library in order to make use of your Pibrella.
 
-You will require the following components alongside your Raspberry Pi:
-
-- A Pibrella
-- An internet connection either by Wifi or Ethernet to get the files you need only.
-
 ## Requirements
 
 As well as a Raspberry Pi with an SD card loaded with Raspbian, you'll also need:
