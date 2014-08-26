@@ -1,6 +1,5 @@
 # Getting started with Pibrella 
 
-## Introduction
 Do you have an add on board for your Raspberry Pi called a [Pibrella?](http://pibrella.com/) Then what are you waiting for, let's get programming it!
 
 ![](pibrella.JPG)
