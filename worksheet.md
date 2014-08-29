@@ -50,13 +50,16 @@ As well as using the Pibrella library in a simple program, you can also use the 
   amber = pibrella.light.amber
   green = pibrella.light.green
   ```
+  Each label is called a variable. Variables have been used here to store the long command as a short hand for the next step.
 
-4. Underneath, add the colour names to a list:
+4. Underneath, add the colour names to a list like this:
   
   ```python
   colour = [red, amber, green]
   ```
-5. Now you have set up the program, create a loop using `while True:` That selects a random colour light from the list of colours and then turn on and off that light for 0.2 of a second:
+  Items, like colours, can be stored in a list and given a name in Python. You can also write this list like this `colour = [pibrella.light.red, pibrella.light.amber, pibrella.light.green] instead of using variable names to store the command. 
+  
+5. Now you have set up the program, create a loop using `while True:` that selects a random colour light from the list of colours and then turn on and off that light for 0.2 of a second:
 
   ```python
   while True:
@@ -64,6 +67,9 @@ As well as using the Pibrella library in a simple program, you can also use the 
       time.sleep(1)
       result.pulse(0.2)
   ```
+  
+  Inside this loop that will repeat forever, you have used the random.choice function to select a colour from the colour list you created at random and then store it in the variable called result. After 1 second the colour led that was selected at random and stored in the result variable will pulse for 0.2 of a second.
+  
 6. Now save and exit by pressing **CTRL** and **X** on the keyboard and then **Y** for yes. 
 7. To run your program type `sudo python disco.py` 
 
