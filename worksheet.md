@@ -111,6 +111,19 @@ Functions allow you to store parts of code so that you can use them again later 
           result.pulse(0.2)
           n = n + 1
   ```        
+  If you run your program now nothing will happen, cause like variables here you have given this piece of a code a name. You have not yet called it to run!
+
+1. Beneath the loop type `disco()`.
+1. Now save and run the code to see what happens!
 
 ## Step 6: Using a button to start your Disco program 
 Now that you have a disco pibrella program working you can start to use some of the other items on the pibrella board, for example something to trigger the program, an input button.
+
+
+  ```python
+  while True:
+      if pibrella.button.read():
+          disco()
+          time.sleep(5)
+          pibrella.light.stop
+  ```        
