@@ -14,7 +14,9 @@ To program your Pibrella using Python then you can download and install the Pibr
 
 ###Activity Checklist:
 
-Type `sudo apt-get update` and press enter. Then type `sudo apt-get upgrade` and press enter. Once this process is finished type `sudo apt-get install python-pip` followed by `sudo pip install pibrella`.
+1. Type `sudo apt-get update` and press enter. 
+1. Then type `sudo apt-get upgrade` and press enter. 
+1. Once this process is finished type `sudo apt-get install python-pip` followed by `sudo pip install pibrella`.
 
 ##Step 2: Test that your Pibrella works
 
