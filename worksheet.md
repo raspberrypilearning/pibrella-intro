@@ -97,7 +97,20 @@ Now that you have a looping disco light, let's add some code so that it only rep
 1 . To run your program type `sudo python disco.py` 
 
 ## Step 5: Using a function to store your disco light loop.  
+Functions allow you to store parts of code so that you can use them again later on. Let's put your new loop into a fuction.
 
+### Activity Checklist:
+1. With your disco.py program open, navigate to the line `n = 0` and wrap your code in a function like this:
+  
+  ```python
+  def disco():
+      n = 0
+      while n < 5:
+          result = random.choice(colour)
+          time.sleep(1)
+          result.pulse(0.2)
+          n = n + 1
+  ```        
 
 ## Step 6: Using a button to start your Disco program 
 Now that you have a disco pibrella program working you can start to use some of the other items on the pibrella board, for example something to trigger the program, an input button.
