@@ -2,15 +2,14 @@
 
 ##Step 1: Set up your Raspberry Pi to use Pibrella
 
-The Pibrella fits onto the GPIO pins on your Raspberry Pi. Make sure that your Pi is turned off before pushing it onto the GPIO pins like this:
+### Activity Checklist:
 
-![](add-pibrella.jpg)
+1. The Pibrella fits onto the GPIO pins on your Raspberry Pi. Make sure that your Pi is turned off before pushing it onto the GPIO pins.
+1. Then connect your micro usb power supply to the Pibrella board and your Raspberry Pi shall boot. 
 
-Then connect your micro usb power supply to the Pibrella board and your Raspberry Pi shall boot. 
+  *Note:To program your Pibrella you can use [Scratch GPIO](http://scratchgpio.github.io) or Python. In this tutorial we will be using Python.* 
 
-To program your Pibrella you can use [Scratch GPIO](http://scratchgpio.github.io) or Python. In this tutorial we will be using Python. 
-
-To program your Pibrella using Python then you can download and install the Pibrella Python Library by opening an LXTerminal window and first making sure that your software *Raspbian* is up to date. 
+1. To program your Pibrella using Python then you can download and install the Pibrella Python Library by opening an LXTerminal window and first making sure that your software *Raspbian* is up to date. 
 
 ###Activity Checklist:
 
