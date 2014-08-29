@@ -117,13 +117,24 @@ Functions allow you to store parts of code so that you can use them again later 
 1. Now save and run the code to see what happens!
 
 ## Step 6: Using a button to start your Disco program 
-Now that you have a disco pibrella program working you can start to use some of the other items on the pibrella board, for example something to trigger the program, an input button.
+Now that you have a disco pibrella program working you can start to use some of the other items on the pibrella board, for example something to trigger the program, an input button. Putting the looping code in a function makes this super easy to do.
 
+### Activity Checklist:
+1. Beneath the disco function create a forever repeating loop like this:
+  ```python
+  while True:
+      if pibrella.button.read():
+          disco()
+  ```       
+  Inside the loop is a condition, which means the disco function will only be triggered if the condition is met. In this case the condition is when the button is pressed. 
+  
+1. Save your code and run it to see what happens.
+1. You may have noticed that the lights keep flashing now. You can break out of the continuous loop after 5 seconds, by typing `break`inside the `while True:` loop like this:
 
   ```python
   while True:
       if pibrella.button.read():
           disco()
           time.sleep(5)
-          pibrella.light.stop
+          break
   ```        
