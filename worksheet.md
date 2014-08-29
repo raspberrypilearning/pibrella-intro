@@ -33,7 +33,7 @@ With the Pirella python library downloaded you can easily test to make sure that
 8. To stop the program press **CTRL** and **C**.
 
 
-##Step 3: Create a Random Light Program
+##Step 3: Create a Random Looping Light Program
 As well as using the Pibrella library in a simple program, you can also use the functionality of other libraries like random and time. 
 
 ###Activity Checklist:
@@ -73,9 +73,14 @@ As well as using the Pibrella library in a simple program, you can also use the 
 6. Now save and exit by pressing **CTRL** and **X** on the keyboard and then **Y** for yes. 
 7. To run your program type `sudo python disco.py` 
 
-##Step 4: Use the button to set off disco.py
+##Step 4: Use a function
 
-Now that you have a disco pibrella program you can use it to alert you to something happening. This could be to alert you to someones presence or as a notification.
+
 
 ###Activity Checklist:
-1. 
+1. Open your disco program by typing `nano disco.py` in an LXTerminal window or from the command line. 
+1. Using the arrows on your keyboard, naviagte to 
+
+
+## Step 5: Using a button to start your Disco program 
+Now that you have a disco pibrella program working you can start to use some of the other items on the pibrella board, for example something to trigger the program, an input button.
