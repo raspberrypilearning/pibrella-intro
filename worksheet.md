@@ -72,7 +72,7 @@ As well as using the Pibrella library in a simple program, you can also use the 
   
 6. Now save and exit by pressing **CTRL** and **X** on the keyboard and then **Y** for yes. 
 7. To run your program type `sudo python disco.py` 
-8. As you have used a continual loop this program will not end untill you press and hold **CTRL** and **C** on the keyboard to interput it. We can fix this in the next step.
+8. As you have used a continual loop this program will not end until you press and hold **CTRL** and **C** on the keyboard to interput it.
 
 ##Step 4: Loop 5 times
 Now that you have a looping disco light, let's add some code so that it only repeats for a number of times, rather than forever.
@@ -83,13 +83,18 @@ Now that you have a looping disco light, let's add some code so that it only rep
 1. Then amend the while loop to read:
 
   ```python
+  n = 0
+  
   while n < 5:
-      esult = random.choice(colour)
+      result = random.choice(colour)
       time.sleep(1)
       result.pulse(0.2)
       n = n + 1
   ```
+  Instead of giving the command `while True:` to loop forever, you have used `while n < 5:` or while n is less than or equal to the value of 5. That means that this loop will only repeat whilst `n` contains a value that is less than 5 or 5. You have already set the value of n as 0 before the loop starts. Then at the bottom of the loop you have added the line `n = n + 1` which will add 1 to the value each time round the loop. e.g. 0 + 1, then 1 + 1, then 2 + 1, and so on, each time storing the new value in the variable n. 
   
+1. Now save and exit by pressing **CTRL** and **X** on the keyboard and then **Y** for yes. 
+1 . To run your program type `sudo python disco.py` 
 
 ## Step 5: Using a function to store your disco light loop.  
 
