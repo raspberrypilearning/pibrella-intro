@@ -72,15 +72,27 @@ As well as using the Pibrella library in a simple program, you can also use the 
   
 6. Now save and exit by pressing **CTRL** and **X** on the keyboard and then **Y** for yes. 
 7. To run your program type `sudo python disco.py` 
+8. As you have used a continual loop this program will not end untill you press and hold **CTRL** and **C** on the keyboard to interput it. We can fix this in the next step.
 
-##Step 4: Use a function
-
-
+##Step 4: Loop 5 times
+Now that you have a looping disco light, let's add some code so that it only repeats for a number of times, rather than forever.
 
 ###Activity Checklist:
 1. Open your disco program by typing `nano disco.py` in an LXTerminal window or from the command line. 
-1. Using the arrows on your keyboard, naviagte to 
+1. Using the arrows on your keyboard, naviagte down to just underneath the colour list and before the while loop. Type `n = 0` to store the numeric value 0 as a variable.
+1. Then amend the while loop to read:
+
+  ```python
+  while n < 5:
+      esult = random.choice(colour)
+      time.sleep(1)
+      result.pulse(0.2)
+      n = n + 1
+  ```
+  
+
+## Step 5: Using a function to store your disco light loop.  
 
 
-## Step 5: Using a button to start your Disco program 
+## Step 6: Using a button to start your Disco program 
 Now that you have a disco pibrella program working you can start to use some of the other items on the pibrella board, for example something to trigger the program, an input button.
