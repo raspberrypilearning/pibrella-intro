@@ -1,6 +1,6 @@
 # Getting started with Pibrella 
 
-Do you have an add on board for your Raspberry Pi called a [Pibrella?](http://pibrella.com/) Then what are you waiting for, let's get programming it!
+Do you have an add-on board for your Raspberry Pi called a [Pibrella?](http://pibrella.com/) Then what are you waiting for? Let's get programming it!
 
 ![](pibrella.JPG)
 
@@ -16,11 +16,11 @@ As well as a Raspberry Pi with an SD card loaded with Raspbian, you'll also need
 
 ## Software
 
-- Pibrella Python Library
+- Pibrella Python library
 
 See more information on checking you have these packages installed, and how to install them, on the software installation page.
 
-## Worksheet & Included Files
+## Worksheet & included files
 
 You will need to follow the steps in the worksheet below.
 
